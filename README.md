@@ -28,10 +28,10 @@ run *npm run dev*\
 and in separate termimal:\
 *npx nightwatch test/component/testBasic.js --env firefox --headless*
 
-We build Vue app, write some component test with Mocha syntax 
-Then we write small e2e test
-*npx nightwatch test/e2e/homePageTest.js --env firefox --headless*
-For running tests, DO NOT FORGET to run app! 
+We build Vue app, write some component test with Mocha syntax  
+Then we write small e2e test  
+*npx nightwatch test/e2e/homePageTest.js --env firefox --headless*  
+For running tests, DO NOT FORGET to run app!   
 For e2e testing, check port for app in test *.js file!
 
 Then add test script to package.json
