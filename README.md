@@ -38,3 +38,7 @@ Then add test script to package.json
 
 Finally we add the Github Actions workflow so that our tests can run on every push and every pull request.
 
+You can get it running on your local machine with the usual steps:\
+git clone https://github.com/SoullessSoldier/vue-bookstore\
+npm install\
+npm run dev
